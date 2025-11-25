@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Al'Amin - Mahasiswa Teknologi Informasi Universitas Muhammadiyah Palangkaraya">
+    <title>Portfolio Al'Amin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>Portfolio Saya</h1>
+
+            <!-- Hamburger Icon -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <!-- Navigation -->
+            <ul class="ul-header" id="nav-list">
+                <li><a href="#Home" class="a-header">Home</a></li>
+                <li><a href="#portfolio" class="a-header">Portfolio</a></li>
+                <li><a href="#contact" class="a-header">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="Home" class="home-section">
+        <div class="img-container">
+            <img src="amin.png" alt="Foto Al'Amin">
+        </div>
+        <div class="home-container">
+            <h1>Hi, Saya <span>Ahmad Al'Amin</span></h1>
+            <p>
+                Saya adalah mahasiswa semester 5 di Universitas Muhammadiyah Palangkaraya, dari Fakultas Bahasa Informasi dan Teknologi program Pendidikan Teknologi Informasi.<br>
+                Web ini dibuat untuk tugas mata kuliah <span>Pemograman Berorientasi Objek.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-container">
+            <h2>Tentang<span> Saya</span></h2>
+
+            <div class="project-por">
+                
+                <div class="vid-1">
+                    <h3>Hobi</h3>
+                    <p>Saya suka bermain dan mendesain jersey/kit, serta membuat real face karakter untuk digunakan dalam game FIFA</p>
+                    <video width="180" height="180" controls autoplay loop>
+                        <source src="Desain Jersey.mp4" type="video/mp4">
+                    </video>
+                </div>
+                
+                 <div class="vid-3">
+                    <h3>Hobi Lainnya</h3>
+                    <p>hobi saya lainnya adalah membaca buku baik itu buku pelajaran, novel, komik, dan lainnya</p>
+                    <video width="180" height="180" controls autoplay loop>
+                        <source src="buku.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="vid-2">
+                    <h3>Minat</h3>
+                    <p>Saya berminat dalam dunia desain grafis, seperti membuat poster, logo, banner, dan lainnya. Salah satu realisasi minat saya adalah pernah mengikuti Lomba desain logo HUT Kabupaten Barito Selatan ke-65.</p>
+                    <video width="180" height="180" controls autoplay loop>
+                        <source src="logo.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+               
+
+            </div>
+        </div>
+            <div class="portfolio-container">
+            <h2>Tentang<span> Saya </span>selama kuliah</h2>
+
+            <div class="project-por">
+                
+                <div class="vid-1">
+                    <h3>CITA-CITA (Setelah Lulus Kuliah)</h3>
+                    <p>Setelah lulus, saya berharap dapat berkontribusi melalui bidang Pendidikan Teknologi Informasi sekaligus menekuni passion saya dalam merancang jersey sepak bola, dengan cita-cita dapat bergabung di perusahaan besar seperti Kappa.</p>
+                   
+                    
+                </div>
+
+                <div class="vid-2">
+                    <h3>HARAPAN (Selama Kuliah)</h3>
+                    <p>Saya berharap masa kuliah menjadi kesempatan untuk belajar lebih dalam, mendapat banyak ilmu dan relasi, mengembangkan potensi diri dan passion saya dalam bidang desain grafis.</p>
+                   
+                </div>
+
+                <div class="vid-3">
+                    <h3>MOTO/Jargon</h3>
+                    <p>Jangan kecewakan orang tua.</p>
+                   
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>Anda dapat menghubungi saya melalui:</h2>
+
+            <p>Email:
+                <strong><a href="mailto:aminreal.bujur@gmail.com">aminreal.bujur@gmail.com</a></strong>
+            </p>
+
+            <p>Instagram:
+                <strong><a href="https://www.instagram.com/ahmadalamin08" target="_blank">@ahmadalamin08</a></strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Al Amin. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <!-- JS Hamburger -->
+    <script>
+        function toggleMenu() {
+            document.getElementById("nav-list").classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>
